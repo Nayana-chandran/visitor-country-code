@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--
+/**
+*
+* NOTICE OF LICENSE
+*
+* ==============================================================
+*                 MAGENTO EDITION USAGE NOTICE
+* ==============================================================
+* This package designed for Magento COMMUNITY edition
+* We do not guarantee correct work of this extension
+* on any other Magento edition except Magento COMMUNITY edition.
+* ==============================================================
+*
+* @category    Visitor Country
+* @package     Visitor_Country
+* @version     1.0
+*
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+	<router id="standard">
+		<route frontName="visitorcountry" id="visitorcountry">
+			<module name="Visitor_Contry"/>
+		</route>
+	</router>
+</config>
